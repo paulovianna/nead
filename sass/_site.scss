@@ -1,0 +1,53 @@
+$claro : #3498DB;
+$escuro : #2980B9;
+/*$claro : #2ECC71;
+$escuro : #27AE60;*/
+$cinza-claro: #ECF0F1;
+$cinza-medio: #BDC3C7;
+$cinza-escuro:#7F8C8D;
+
+body{
+	background-color: $escuro;
+	font-family: 'Lato', sans-serif;
+}
+
+a{
+	color: $escuro;
+}
+	a:hover{
+		color:$escuro;
+	}
+
+b{
+	font-weight: bold;
+}
+
+p{
+	padding: 5px 5px 5px 5px;
+}
+
+h3{
+	font-size: 20px;
+	font-weight: bold;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.conteudo{
+	background-color: white;
+}
+
+.titulo{
+	color: $cinza-escuro;
+	font-size: 32px;
+	padding: 17px 15px 17px 0px;
+}
+
+.texto{
+	padding-top:25px;
+	color: $cinza-escuro;
+}
+
+.fundo{
+	background-color:$cinza-claro;
+}

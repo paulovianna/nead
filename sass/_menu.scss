@@ -1,0 +1,52 @@
+.menu{
+	padding: 0 0 0 0;
+	color: $escuro;
+	border-width:0px;
+}
+
+.nav>li {
+	border-bottom:1px solid #bdc3c7;
+	border-left:1px solid #bdc3c7;
+	border-right:1px solid #bdc3c7;
+	background-color: white;
+}
+
+li>a.visitado{
+	background-color: $claro;
+	color: white;
+}
+
+li>a.visitado:hover{
+	background-color: $claro;
+	color: white;
+}
+
+li.sessao{
+	background-color: $escuro;
+	border: 0px;
+}
+
+a.sessao{
+	pointer-events: none;
+    cursor: default;
+    font-weight: bold;
+	color: white;
+}
+
+.navbar-header{
+	padding: 0 0 0 0;
+	background-color: $claro;
+	color: white;
+}
+
+.navbar-toggle{
+	background-color: #ddd;
+}
+
+.navbar-default .navbar-brand {
+	color: white;
+}
+
+a[disabled] {
+    pointer-events: none;
+}

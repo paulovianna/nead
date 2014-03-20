@@ -1,0 +1,20 @@
+{
+  "name": "pronatec",
+  "version": "0.0.0",
+  "description": "pronatec portal",
+  "main": "index.php",
+  "scripts": {
+    "test": "grunt spec"
+  },
+  "author": "Paulo Henrique Vianna",
+  "license": "BSD",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-connect": "~0.6.0",
+    "grunt-contrib-compass": "~0.7.0",
+    "grunt-contrib-csslint": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-uglify": "~0.2.7",
+    "grunt-ftp-deploy": "~0.1.1"
+  }
+}

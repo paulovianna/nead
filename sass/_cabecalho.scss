@@ -1,0 +1,96 @@
+$altura-linha1: 150px;
+$altura-linha2: 50px;
+
+.logo{	
+	background-color:white;
+	padding: 0 0 0 0;
+}
+
+.logotipo{
+	height:$altura-linha1;
+	padding: 10px 10px 10px 10px;
+}
+
+.banner{
+	height:$altura-linha1;
+	background-color:$claro;
+	background-image: url("../images/banner.png");
+	padding: 0 0 0 0;
+	position:relative;
+	top:0px; 
+	left:0px;
+}
+
+.pesquisa{
+	height:$altura-linha2;
+	background-color:$cinza-escuro;
+}
+	div.pesquisa div{
+		padding-top: 2px;
+	}
+
+	div.pesquisa span.input-group-addon{
+		background-color: $claro;
+		color:white;
+		border-color: $claro;
+	}
+
+.menu-horizontal{
+	height:$altura-linha2;
+	background-color:$cinza-medio;
+}
+
+.linha-moodle{
+	height: 32px;
+	margin-bottom: 5px;
+}
+
+.linha-form-moodle{
+	height: 28px;
+}
+
+	button.linha-form-moodle{
+		padding-top: 3px;
+	}
+
+.moodle{
+	height:$altura-linha1;
+	//position:absolute;
+	top:0px;
+	left:0px;
+	float:right;
+}	
+
+.logo-moodle{
+	height: 40px;
+	padding-top: 5px;
+	padding-bottom: 2px;
+	text-align: center;
+}
+
+.form-moodle-mobile{
+	margin-bottom: 30px;
+}
+
+.esqueci-senha{
+	text-align: center;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+	.esqueci-senha-mobile{
+		margin-top: 5px;
+	}
+
+.areas{
+	height:$altura-linha2;
+	border-right: 2px solid white;
+	color:white;
+	text-align: center;
+}
+
+.erro-login{
+	text-align: center;
+	margin: 0 0 0 0;
+	border-radius: 0px;
+}
