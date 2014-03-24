@@ -69,7 +69,7 @@ $altura-linha2: 50px;
 }
 
 .form-moodle-mobile{
-	margin-bottom: 30px;
+	margin-bottom: 65px;
 }
 
 .esqueci-senha{
@@ -80,6 +80,11 @@ $altura-linha2: 50px;
 
 	.esqueci-senha-mobile{
 		margin-top: 5px;
+	}
+
+	li>a.sub-esqueci-senha:hover{
+		background-color: $claro;
+		color:white;
 	}
 
 .areas{

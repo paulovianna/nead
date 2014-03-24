@@ -78,8 +78,3 @@
 		</table>
 	</div>
 </div>
-<script type="text/javascript">
-    $('#myModal').modal({
-      show: true
-    })
-</script>

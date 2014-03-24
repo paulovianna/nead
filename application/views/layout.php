@@ -65,7 +65,12 @@
 							<div class="row form-group linha-moodle">
 								<div class="col-sm-12 col-md-12 linha-form-moodle">
 									<button type="submit" class="btn btn-primary btn-lg col-sm-9 col-md-9 linha-form-moodle">Acessar</button>
-									<a href="http://portal.ufsm.br/usuario/esqueciSenha.html" target="_blank" title="Recuperação de senha"><button type="button" class="btn btn-primary btn-lg col-sm-3 col-md-3 linha-form-moodle esqueci-senha"><span class="glyphicon glyphicon-question-sign"></span></button></a>
+									<button type="button" class="btn btn-primary dropdown-toggle btn-lg col-sm-3 col-md-3 linha-form-moodle esqueci-senha" data-toggle="dropdown"><span class="glyphicon glyphicon-question-sign"></span></button>
+									<ul class="dropdown-menu" role="menu">
+										<li><a href="http://portal.ufsm.br/usuario/esqueciSenha.html" class="sub-esqueci-senha">Esqueci minha senha</a></li>
+										<li class="divider"></li>
+										<li><a href="http://portal.ufsm.br/usuario/index.html" class="sub-esqueci-senha">Alterar minha senha</a></li>
+									</ul>
 								</div>
 							</div>
 						</form>
@@ -114,6 +119,7 @@
 							<div class="col-sm-12 col-md-12 linha-form-moodle">
 								<button type="submit" class="btn btn-primary btn-lg btn-block linha-form-moodle">Acessar</button>
 								<a href="http://portal.ufsm.br/usuario/esqueciSenha.html"><button type="button" class="btn btn-primary btn-lg btn-block linha-form-moodle esqueci-senha-mobile">Recuperação de senha</button></a>
+								<a href="http://portal.ufsm.br/usuario/index.html"><button type="button" class="btn btn-primary btn-lg btn-block linha-form-moodle esqueci-senha-mobile">Esqueci minha senha</button></a>
 							</div>
 						</div>
 					</form>

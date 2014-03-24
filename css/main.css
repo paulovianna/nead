@@ -214,7 +214,7 @@ button.linha-form-moodle {
 
 /* line 71, ../sass/_cabecalho.scss */
 .form-moodle-mobile {
-  margin-bottom: 30px;
+  margin-bottom: 65px;
 }
 
 /* line 75, ../sass/_cabecalho.scss */
@@ -230,6 +230,12 @@ button.linha-form-moodle {
 }
 
 /* line 85, ../sass/_cabecalho.scss */
+li > a.sub-esqueci-senha:hover {
+  background-color: #3498db;
+  color: white;
+}
+
+/* line 90, ../sass/_cabecalho.scss */
 .areas {
   height: 50px;
   border-right: 2px solid white;
@@ -237,7 +243,7 @@ button.linha-form-moodle {
   text-align: center;
 }
 
-/* line 92, ../sass/_cabecalho.scss */
+/* line 97, ../sass/_cabecalho.scss */
 .erro-login {
   text-align: center;
   margin: 0 0 0 0;
