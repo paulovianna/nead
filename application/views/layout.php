@@ -23,6 +23,11 @@
 			ga('create', 'UA-43473645-3', 'ufsm.br');
 			ga('send', 'pageview');
 		</script>
+		<style type="text/css">
+			#wrapper-barra-brasil{
+				height: 32px;
+			}
+		</style>
 	</head>
 	<body>
 		<div class="container">
@@ -142,7 +147,7 @@
 							  <li><a href="inicio"> Início</a></li>
 							  <li><a href="sobre"> Sobre</a></li>
 							  <li><a href="noticias"> Notícias</a></li>
-							  <li><a href="#" disabled> Galeria de Fotos</a></li>
+							  <li><a href="galerias"> Galeria de Fotos</a></li>
 							  <li><a href="editais"> Editais</a></li>
 							  <li><a href="contato"> Contato</a></li>
 							  <li class="sessao"><a class="sessao">Cursos</a></li>
@@ -182,7 +187,10 @@
 				</div>
 			</div>
 		</div>
-		<script src="scripts/barra.js" type="text/javascript"></script>
+		<script src="http://barra.brasil.gov.br/barra.js" type="text/javascript"></script>
+		<!--<script type="text/javascript">
+			$('#myModal').modal('show');
+		</script>-->
 	</body>
 </html>
 

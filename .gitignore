@@ -1,3 +1,10 @@
+fotos/
+docs/
+fdw/
+assets/
+nead.sublime-workspace
+nead.sublime-project
 node_modules
+.DS_Store
 .sass-cache
 

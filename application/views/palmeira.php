@@ -7,7 +7,7 @@
 		<h3 class="dados-polo">Endereço</h3>
 		<p>Telecentro Comunitário (Antiga CEEE)</p>
 		<p>Rua Franscisco Pinheiro, 500</p>
-		<p>(055) 3742-6341</p>
+		<p>(055) 8403-8845</p>
 	</div>
 	<div class="col-sm-6 col-md-6">
 		<h3 class="dados-polo">Horários de Funcionamento</h3>

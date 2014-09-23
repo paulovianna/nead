@@ -1,25 +1,37 @@
 <!--<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 	<div class="modal-dialog">
-		<div class="modal-content">
+		<div class="modal-content" style="width:100%;">
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-				<h4 class="modal-title" id="myModalLabel">Caros alunos,</h4>
+				<h4 class="modal-title" id="myModalLabel">Problemas Acesso ao Moodle</h4>
 			</div>
 			<div class="modal-body">
 				<p style="text-align:justify;">
-				Alunos matrículados nos cursos Técnico em Agroindustria e Técnico em Informática para Internet na 
-				modalidade EAD, nos polos da cidade de Constantina, Ronda Alta, Planalto, Trindade do Sul e Palmeira das 
-				Missões, estamos realizando os últimos ajustes de matrículas, alunos que não possuem matrículas e alunos que 
-				já possuem matrículas e não estão conseguindo acessar o ambiente virtual (<a href="http://ead.cafw.ufsm.br">http://ead.cafw.ufsm.br</a>), até o dia 
-				<b>14/03/2014</b> pela parte da tarde já estarão regularizados.
+					Comunicamos que o acesso ao Moodle está sendo prejudicado por uma falha na comunicação
+					com os servidores da UFSM em Santa Maria, com isso fica impossibilitada a autenticação
+					de usuários.
 				</p>
-				<p>
-				Qualquer dúvida entre em contato pelo email <b>suporteeadcafw@gmail.com</b> ou pelo telefone <b>(55) 3744-8989</b>.
+				<p style="text-align:justify;">
+					Estamos trabalhando para resolver este problema, com a previsão de retorno do funcionamento 
+					normal do acesso até o final do dia de hoje (12/09).
+				</p>
+				<p style="text-align:justify;">
+					Agradecemos a compreensão de todos.
 				</p>
 			</div>
 		</div>
 	</div>
 </div>-->
+<div id="fb-root"></div>
+<script>
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1&appId=342025892533382";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
 <h1 class="titulo">
 	<span class="glyphicon glyphicon-globe"></span>
 	Últimas Notícias
@@ -59,22 +71,34 @@
 			</thead>
 			<tbody>
 				<tr>
-			        <td><a href="docs/primeira-chamada-suplente-tutor-02-2014.pdf" target="_blank">1ª Chamada de Tutores Suplentes (Edital 02/2014)</a></td>
+			        <td><a href="docs/edital46-2014-reingresso.pdf" target="_blank">Abertura de Vagas para Reingresso nos Cursos Técnicos EaD</a></td>
+			        <td>Aluno</td>
+			    </tr>
+				<tr>
+			        <td><a href="docs/2-chamada-suplente-51-2013.pdf" target="_blank">2ª Chamada de Tutores Suplentes (Edital 51/2013)</a></td>
 			        <td>Tutor</td>
 			    </tr>
 				<tr>
-			        <td><a href="docs/primeira-chamada-de-suplentes-aluno.pdf" target="_blank">1ª Chamada de Suplentes relativa ao Edital de Abertura de Vagas</a></td>
+			        <td><a href="docs/aproveitamentos-informatica-2014.pdf" target="_blank">Resultado do Pedido de Aproveitamento de Disciplinas - Informática para Internet</a></td>
 			        <td>Aluno</td>
 			    </tr>
-			    <tr>
-			        <td><a href="docs/resultado-edital-complementar.pdf" target="_blank">Resultado do Edital de Abertura de Vagas - Ingresso, Reingresso e Transferência</a></td>
+				<tr>
+			        <td><a href="docs/aproveitamentos-agroindustria-2014.pdf" target="_blank">Resultado do Pedido de Aproveitamento de Disciplinas - Agroindústria</a></td>
 			        <td>Aluno</td>
-			    </tr>
-			    <tr>
-			        <td><a href="docs/resultado-tutores-02-2014.pdf" target="_blank">Resultado Final (Edital 02/2014)</a></td>
-			        <td>Tutor</td>
 			    </tr>
 			</tbody>
 		</table>
 	</div>
 </div>
+<h1 class="titulo">
+	<span class="glyphicon glyphicon-thumbs-up"></span>
+	Redes Sociais
+</h1>
+<div class="row">
+	<div class="col-sm-12 col-md-12 fundo lista-ultimos-editais">
+		<div class="fb-like-box" data-href="https://www.facebook.com/PronatecCAFW" data-width="100%" data-height="100%" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="false" data-show-border="false"></div>
+	</div>
+</div>
+<!--<script type="text/javascript">
+	$('#myModal').modal('show');
+</script>-->

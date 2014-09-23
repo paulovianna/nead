@@ -12,6 +12,15 @@
 			</thead>
 			<tbody>
 				<tr>
+			        <td><a href="docs/edital46-2014-reingresso.pdf" target="_blank">Abertura de Vagas para Reingresso nos Cursos Técnicos EaD</a></td>
+			    </tr>
+				<tr>
+			        <td><a href="docs/aproveitamentos-informatica-2014.pdf" target="_blank">Resultado do Pedido de Aproveitamento de Disciplinas - Informática para Internet</a></td>
+			    </tr>
+				<tr>
+			        <td><a href="docs/aproveitamentos-agroindustria-2014.pdf" target="_blank">Resultado do Pedido de Aproveitamento de Disciplinas - Agroindústria</a></td>
+			    </tr>
+				<tr>
 			        <td><a href="docs/primeira-chamada-de-suplentes-aluno.pdf" target="_blank">1ª Chamada de Suplentes relativa ao Edital de Abertura de Vagas</a></td>
 			    </tr>
 				<tr>
@@ -73,6 +82,9 @@
 			    </tr>
 			</thead>
 			<tbody>
+				<tr>
+			        <td><a href="docs/2-chamada-suplente-51-2013.pdf" target="_blank">2ª Chamada de Tutores Suplentes (Edital 51/2013)</a></td>
+			    </tr>
 				<tr>
 			        <td><a href="docs/primeira-chamada-suplente-tutor-02-2014.pdf" target="_blank">1ª Chamada de Tutores Suplentes (Edital 02/2014)</a></td>
 			    </tr>
