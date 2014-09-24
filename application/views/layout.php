@@ -10,10 +10,13 @@
 		<title>NEaD | <?php echo $area;?></title>
 		<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
 		<link rel="stylesheet" type="text/css" href="bootstrap-3.1.1/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="bootstrap-3.1.1/css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="calendar/css/calendar.min.css">
 		<link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 		<script src="scripts/jquery-1.11.0.min.js" type="text/javascript"></script>
 		<script src="scripts/bootstrap.min.js" type="text/javascript"></script>
+
 		<script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -187,6 +190,12 @@
 				</div>
 			</div>
 		</div>
+		<script type="text/javascript" src="calendar/components/underscore/underscore-min.js"></script>
+		<script type="text/javascript" src="calendar/components/bootstrap3/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="calendar/components/jstimezonedetect/jstz.min.js"></script>
+		<script type="text/javascript" src="calendar/js/language/pt-BR.js"></script>
+		<script type="text/javascript" src="calendar/js/calendar.js"></script>
+		<script type="text/javascript" src="calendar/js/app.js"></script>
 		<script src="http://barra.brasil.gov.br/barra.js" type="text/javascript"></script>
 		<!--<script type="text/javascript">
 			$('#myModal').modal('show');
