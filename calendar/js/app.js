@@ -2,13 +2,25 @@
 
 	"use strict";
 
+	var d = new Date();
+    var curr_date = d.getDate();
+    var curr_month = d.getMonth()+1;
+    var curr_year = d.getFullYear();
+    if(curr_month < 10){
+    	var date = curr_year + "-0" + curr_month + "-" + curr_date;
+    }else{
+    	var date = curr_year + "-" + curr_month + "-" + curr_date;
+    }
+
+    console.log(date);
+
 	var options = {
-		events_source: 'events.json.php',
+		events_source: 'calendario/eventos',
 		view: 'month',
 		tmpl_path: 'tmpls/',
 		tmpl_cache: false,
 		language: 'pt-BR',
-		day: '2013-03-12',
+		day: date,
 		onAfterEventsLoad: function(events) {
 			if(!events) {
 				return;

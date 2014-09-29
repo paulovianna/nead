@@ -15,7 +15,6 @@
 		<link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 		<script src="scripts/jquery-1.11.0.min.js" type="text/javascript"></script>
-		<script src="scripts/bootstrap.min.js" type="text/javascript"></script>
 
 		<script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
