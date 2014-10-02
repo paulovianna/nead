@@ -6,13 +6,19 @@
     var curr_date = d.getDate();
     var curr_month = d.getMonth()+1;
     var curr_year = d.getFullYear();
-    if(curr_month < 10){
-    	var date = curr_year + "-0" + curr_month + "-" + curr_date;
+    
+    if(curr_date < 10){
+    	curr_date = "-0" + curr_date;
     }else{
-    	var date = curr_year + "-" + curr_month + "-" + curr_date;
+    	curr_date = "-" + curr_date;
+    }
+    if(curr_month < 10){
+    	curr_month = "-0" + curr_month;
+    }else{
+    	curr_month = "-" + curr_month;
     }
 
-    console.log(date);
+    var date = curr_year + curr_month + curr_date;
 
 	var options = {
 		events_source: 'calendario/eventos',
