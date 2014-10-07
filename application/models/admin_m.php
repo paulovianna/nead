@@ -17,6 +17,7 @@ class Admin_m extends CI_Model{
      
       if($query->num_rows() == 1){
         foreach($query->result() as $row){
+          
           if($this->encrypt->decode($row->senha) == $password){
             return $query->result();
           }else{

@@ -15,6 +15,7 @@ class Admin extends CI_Controller {
         
         if($this->logado()){
             $dados['area'] = 'home';
+            $this->load->library('encrypt');
             $this->load->view('admin/home', $dados);
         }else{
             $this->load->view('admin/login');
@@ -53,14 +54,15 @@ class Admin extends CI_Controller {
             }
             else
             {
-             $this->load->view('admin/home');
+                $dados['area'] = 'home';
+                $this->load->view('admin/home', $dados);
             }
         }
     }
 
     function check_database($password){
 
-       $username = $this->input->post('username');
+       $username = $this->input->post('usuario');
        $result = $this->admin_m->login($username, $password);
      
        if($result)

@@ -46,13 +46,13 @@
                                         <div class="form-group">
                                             <label>Classe do evento</label>
                                             <select class="form-control" name="classe">
-                                                <option <?php if($evento->classe == 'event-warning') echo 'selected';?> value="event-warning">Amarelo</option>
-                                                <option <?php if($evento->classe == 'event-info') echo 'selected';?> value="event-info">Azul</option>
+                                                <option <?php if($evento->classe == 'event-warning') echo 'selected';?> value="event-warning">Início de Módulo</option>
+                                                <option <?php if($evento->classe == 'event-info') echo 'selected';?> value="event-info">Evento Geral</option>
                                                 <option <?php if($evento->classe == '0') echo 'selected';?> value="0">Cinza</option>
                                                 <option <?php if($evento->classe == 'event-inverse') echo 'selected';?> value="event-inverse">Preto</option>
                                                 <option <?php if($evento->classe == 'event-special') echo 'selected';?> value="event-special">Roxo</option>
-                                                <option <?php if($evento->classe == 'event-success') echo 'selected';?> value="event-success">Verde</option>
-                                                <option <?php if($evento->classe == 'event-important') echo 'selected';?> value="event-important">Vermelho</option>
+                                                <option <?php if($evento->classe == 'event-success') echo 'selected';?> value="event-success">Aula</option>
+                                                <option <?php if($evento->classe == 'event-important') echo 'selected';?> value="event-important">Prova</option>
                                             </select>
                                         </div>
                                         <div class="form-group">

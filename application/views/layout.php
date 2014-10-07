@@ -149,6 +149,7 @@
 							  <li><a href="inicio"> Início</a></li>
 							  <li><a href="sobre"> Sobre</a></li>
 							  <li><a href="noticias"> Notícias</a></li>
+							  <li><a href="calendario"> Calendário <span style="color:red;font-size:10pt;">(Novo)</span></a></li>
 							  <li><a href="galerias"> Galeria de Fotos</a></li>
 							  <li><a href="editais"> Editais</a></li>
 							  <li><a href="contato"> Contato</a></li>

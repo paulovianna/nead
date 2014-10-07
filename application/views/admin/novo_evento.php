@@ -46,13 +46,13 @@
                                         <div class="form-group">
                                             <label>Classe do evento</label>
                                             <select class="form-control" name="classe">
-                                                <option value="event-warning">Amarelo</option>
-                                                <option value="event-info">Azul</option>
+                                                <option value="event-warning">Início de Módulo</option>
+                                                <option value="event-info">Evento Geral        </option>
                                                 <option value="0">Cinza</option>
                                                 <option value="event-inverse">Preto</option>
                                                 <option value="event-special">Roxo</option>
-                                                <option value="event-success">Verde</option>
-                                                <option value="event-important">Vermelho</option>
+                                                <option value="event-success">Aula</option>
+                                                <option value="event-important">Prova</option>
                                             </select>
                                         </div>
                                         <div class="form-group">
