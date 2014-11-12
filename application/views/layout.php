@@ -32,10 +32,10 @@
 		</style>
 	</head>
 	<body>
+		<div id="barra-brasil">
+	    	<a href="http://brasil.gov.br" class="barra">Portal do Governo Brasileiro</a>
+		</div>
 		<div class="container">
-			<div id="barra-brasil">
-		    	<a href="http://brasil.gov.br" class="barra">Portal do Governo Brasileiro</a>
-			</div>
 			<div class="row">
 				<?php if (isset($_GET['errorcode'])){?>
 					<?php if ($_GET['errorcode'] == 3){?>
