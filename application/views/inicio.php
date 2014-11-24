@@ -70,22 +70,12 @@
 			    </tr>
 			</thead>
 			<tbody>
+				<?php foreach($editais as $edital):?>
 				<tr>
-			        <td><a href="docs/edital46-2014-reingresso.pdf" target="_blank">Abertura de Vagas para Reingresso nos Cursos Técnicos EaD</a></td>
-			        <td>Aluno</td>
+			        <td><a href="docs/<?php echo $edital->arquivo;?>" target="_blank"><?php echo $edital->titulo;?></a></td>
+			        <td><?php echo $edital->categoria;?></td>
 			    </tr>
-				<tr>
-			        <td><a href="docs/2-chamada-suplente-51-2013.pdf" target="_blank">2ª Chamada de Tutores Suplentes (Edital 51/2013)</a></td>
-			        <td>Tutor</td>
-			    </tr>
-				<tr>
-			        <td><a href="docs/aproveitamentos-informatica-2014.pdf" target="_blank">Resultado do Pedido de Aproveitamento de Disciplinas - Informática para Internet</a></td>
-			        <td>Aluno</td>
-			    </tr>
-				<tr>
-			        <td><a href="docs/aproveitamentos-agroindustria-2014.pdf" target="_blank">Resultado do Pedido de Aproveitamento de Disciplinas - Agroindústria</a></td>
-			        <td>Aluno</td>
-			    </tr>
+				<?php endforeach;?>
 			</tbody>
 		</table>
 	</div>

@@ -7,7 +7,7 @@ class Inicio extends CI_Controller {
 		parent::__construct();
 		
 		$this->load->helper('url');
-		$this->load->model('noticias_m');
+		$this->load->model(array('noticias_m', 'editais_m'));
 	}
 
 	public function index(){
@@ -15,6 +15,7 @@ class Inicio extends CI_Controller {
 		$dados['area'] = 'Início';
 		$dados['noticias1'] = $this->noticias_m->select_noticias_inicio1();
 		$dados['noticias2'] = $this->noticias_m->select_noticias_inicio2();
+		$dados['editais'] = $this->editais_m->select_editais_ultimos();
 
 		$this->load->view('layout', $dados);
 	}

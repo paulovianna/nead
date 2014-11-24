@@ -11,36 +11,11 @@
 			    </tr>
 			</thead>
 			<tbody>
+				<?php foreach($alunos as $aluno):?>
 				<tr>
-			        <td><a href="docs/edital46-2014-reingresso.pdf" target="_blank">Abertura de Vagas para Reingresso nos Cursos Técnicos EaD</a></td>
+			        <td><a href="docs/<?php echo $aluno->arquivo;?>" target="_blank"><?php echo $aluno->titulo;?></a></td>
 			    </tr>
-				<tr>
-			        <td><a href="docs/aproveitamentos-informatica-2014.pdf" target="_blank">Resultado do Pedido de Aproveitamento de Disciplinas - Informática para Internet</a></td>
-			    </tr>
-				<tr>
-			        <td><a href="docs/aproveitamentos-agroindustria-2014.pdf" target="_blank">Resultado do Pedido de Aproveitamento de Disciplinas - Agroindústria</a></td>
-			    </tr>
-				<tr>
-			        <td><a href="docs/primeira-chamada-de-suplentes-aluno.pdf" target="_blank">1ª Chamada de Suplentes relativa ao Edital de Abertura de Vagas</a></td>
-			    </tr>
-				<tr>
-			        <td><a href="docs/resultado-edital-complementar.pdf" target="_blank">Resultado do Edital de Abertura de Vagas - Ingresso, Reingresso e Transferência</a></td>
-			    </tr>
-				<tr>
-			        <td><a href="docs/edital-ingresso-reingresso.pdf" target="_blank">Edital Abertura de Vagas - Ingresso, Reingresso e Transferência</a></td>
-			    </tr>
-			    <tr>
-			        <td><a href="docs/resultado-selecao-2014.pdf" target="_blank">Resultado da Seleção</a></td>
-			    </tr>
-			    <tr>
-			        <td><a href="docs/gab-exame-selecao.pdf" target="_blank">Baixar o Gabarito da Prova de Seleção</a></td>
-			    </tr>
-			    <tr>
-			        <td><a href="docs/manual-candidato.pdf" target="_blank">Manual do Candidato</a></td>
-			    </tr>
-			    <tr>
-			        <td><a href="docs/edital.pdf" target="_blank">Edital - Seleção de Alunos</a></td>
-			    </tr>
+				<?php endforeach;?>
 			</tbody>
 		</table>
 	</div>
@@ -54,21 +29,11 @@
 			    </tr>
 			</thead>
 			<tbody>
+				<?php foreach($professores as $professor):?>
 				<tr>
-			        <td><a href="docs/resultado-selecao-externa-04-2014.pdf" target="_blank">Resultado Final da Seleção Externa de Professores (Edital 04/2014)</a></td>
+			        <td><a href="docs/<?php echo $professor->arquivo;?>" target="_blank"><?php echo $professor->titulo;?></a></td>
 			    </tr>
-			    <tr>
-			        <td><a href="docs/resultado-selecao-interna-03-2014.pdf" target="_blank">Resultado Final da Seleção Interna de Professores (Edital 03/2014)</a></td>
-			    </tr>
-			    <tr>
-			        <td><a href="docs/classificados-segunda-etapa-e-cronograma-entrevistas-04-2014.pdf" target="_blank">Cronograma de Entrevistas – Seleção Externa de Professores (Edital 04/2014)</a></td>
-			    </tr>
-			    <tr>
-			        <td><a href="docs/edital-03-2014-ead.pdf" target="_blank">Seleção Interna Simplificada de servidores ativos e inativos da UFSM para atuarem como professores do PRONATEC/Rede e-Tec</a></td>
-			    </tr>
-			    <tr>
-			        <td><a href="docs/edital-04-2014-ead.pdf" target="_blank">Seleção Externa Simplificada para professores atuarem no PRONATEC/Rede e-Tec</a></td>
-			    </tr>
+				<?php endforeach;?>
 			</tbody>
 		</table>
 	</div>
@@ -82,39 +47,11 @@
 			    </tr>
 			</thead>
 			<tbody>
+				<?php foreach($tutores as $tutor):?>
 				<tr>
-			        <td><a href="docs/2-chamada-suplente-51-2013.pdf" target="_blank">2ª Chamada de Tutores Suplentes (Edital 51/2013)</a></td>
+			        <td><a href="docs/<?php echo $tutor->arquivo;?>" target="_blank"><?php echo $tutor->titulo;?></a></td>
 			    </tr>
-				<tr>
-			        <td><a href="docs/primeira-chamada-suplente-tutor-02-2014.pdf" target="_blank">1ª Chamada de Tutores Suplentes (Edital 02/2014)</a></td>
-			    </tr>
-				<tr>
-			        <td><a href="docs/resultado-tutores-02-2014.pdf" target="_blank">Resultado Final (Edital 02/2014)</a></td>
-			    </tr>
-				<tr>
-			        <td><a href="docs/classificados-segunda-etapa-e-cronograma-entrevistas-02-2014.pdf" target="_blank">Classificados para a 2ª etapa e cronograma de entrevistas (Edital 02/2014)</p></a></td>
-			    </tr>
-				<tr>
-			        <td><a href="docs/inscricoes-nao-homologadas-02-2014.pdf" target="_blank">Candidatos com Inscrições não Homologadas (Edital 02/2014)</a></td>
-			    </tr>
-				<tr>
-			        <td><a href="docs/primeira-chamada-suplente-tutor.pdf" target="_blank">1ª Chamada de Tutores Suplentes (Edital 51/2013)</a></td>
-			    </tr>
-				<tr>
-			        <td><a href="docs/edital-02-2014-tutores.pdf" target="_blank">Edital 02/2014 - Seleção de Tutores - Vagas Remanescentes</a></li></td>
-			    </tr>
-			    <tr>
-			        <td><a href="docs/resultado-tutores-2014.pdf" target="_blank">Resultado Final (Edital 51/2013)</a></td>
-			    </tr>
-			    <tr>
-			        <td><a href="docs/classificados-tutores.pdf" target="_blank">Classificados para a 2ª etapa e cronograma de entrevistas (Edital 51/2013)</a></td>
-			    </tr>
-			    <tr>
-			        <td><a href="docs/nao-homologadas-reprovados-tutores.pdf" target="_blank">Candidatos com Inscrições não Homologadas e Candidatos não classificados para a 2ª Etapa (Edital 51/2013)</a></td>
-			    </tr>
-			    <tr>
-			        <td><a href="docs/edital-tutores.pdf" target="_blank">Edital 51/2013 - Seleção de Tutores</a></td>
-			    </tr>
+				<?php endforeach;?>
 			</tbody>
 		</table>
 	</div>

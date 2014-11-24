@@ -41,8 +41,7 @@
 $route['default_controller'] = "inicio";
 $route['404_override'] = '';
 $route['sobre'] = 'nead/sobre';
-$route['contato'] = 'nead/contato';
-$route['editais'] = 'nead/editais';
+$route['contato'] = 'nead/contato'; 
 
 
 /* End of file routes.php */
