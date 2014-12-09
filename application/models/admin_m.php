@@ -72,4 +72,49 @@ class Admin_m extends CI_Model{
       $this->db->where('id', $id);
       return $this->db->delete('eventos');
     }
+
+    function editais(){
+
+      $this->db->order_by("id", "desc");
+      $query = $this->db->get('editais');
+      return $query->result();
+    }
+
+    function novo_edital($edital, $arquivo){
+
+      $data = array(
+         'titulo' => $edital['titulo'],
+         'categoria' => $edital['perfil'],
+         'arquivo' => $arquivo
+      );
+
+      return $this->db->insert('editais', $data); 
+    }
+
+    function select_edital($id){
+      $this->db->where('id', $id);
+      $query = $this->db->get('editais');
+      return $query->row();
+    }
+
+    function editar_edital_texto($edital){
+
+      $data = array(
+         'titulo' => $edital['titulo'],
+         'categoria' => $edital['perfil']
+      );
+      $this->db->where('id', $edital['id']);
+      return $this->db->update('editais', $data); 
+    }
+
+    function editar_edital($edital, $arquivo){
+
+      $data = array(
+         'titulo' => $edital['titulo'],
+         'categoria' => $edital['perfil'],
+         'arquivo' => $arquivo
+      );
+      $this->db->where('id', $edital['id']);
+      return $this->db->update('editais', $data); 
+    }
 }

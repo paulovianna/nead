@@ -32,8 +32,8 @@
                 <li>
                     <a class="<?php if($area == 'agenda') echo 'active';?>" href="<?php echo base_url();?>admin/agenda"><i class="fa fa-calendar fa-fw"></i> Agenda</a>
                 </li>
-                <li style="opacity:0.4;">
-                    <a href="#"><i class="fa fa-list-alt fa-fw"></i> Editais <span>(Breve)</span></a>
+                <li>
+                    <a class="<?php if($area == 'editais') echo 'active';?>" href="<?php echo base_url();?>admin/editais"><i class="fa fa-list-alt fa-fw"></i> Editais <span></span></a>
                 </li>
                 <li style="opacity:0.4;">
                     <a href="#"><i class="fa fa-list fa-fw"></i> Notícias <span>(Breve)</span></a>

@@ -35,7 +35,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6" style="opacity:0.4;">
+                <div class="col-lg-3 col-md-6">
                     <div class="panel panel-green">
                         <div class="panel-heading">
                             <div class="row">
@@ -47,7 +47,7 @@
                                 </div>
                             </div>
                         </div>
-                        <a href="#">
+                        <a href="<?php echo base_url();?>admin/editais">
                             <div class="panel-footer">
                                 <span class="pull-left">Ver Editais</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
