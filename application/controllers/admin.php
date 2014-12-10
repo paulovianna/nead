@@ -377,4 +377,26 @@ class Admin extends CI_Controller {
             $this->load->view('admin/login');
         }
     }
+
+    function deletar_edital($id){
+
+        if($this->logado()){
+            $dados['area'] = 'editais';
+            $edital = $this->admin_m->select_edital($id);
+            if($this->admin_m->deletar_edital($id,$edital->arquivo)){
+                $dados['editais'] = $this->admin_m->editais();
+                $dados['sucesso'] = TRUE;
+                $dados['mensagem'] = 'Edital deletado com sucesso.';
+                $this->load->view('admin/editais',$dados);
+            }else{
+                $dados['editais'] = $this->admin_m->editais();
+                $dados['sucesso'] = FALSE;
+                $dados['mensagem'] = 'Falha ao deletar o edital, tente novamente.';
+                $this->load->view('admin/editais',$dados);
+            } 
+        }else{
+
+            $this->load->view('admin/login');
+        }
+    }
 }

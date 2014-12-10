@@ -81,29 +81,31 @@
                                             <td class="center"><?=date('d-m-Y | h:i', strtotime($evento->fim));?></td>
                                             <td>
                                                 <a href="<?php echo base_url();?>admin/form_editar_evento/<?=$evento->id;?>"><button type="button" class="btn btn-outline btn-primary btn-xs">Editar</button></a>
-                                                <button type="button" class="btn btn-outline btn-danger btn-xs" data-toggle="modal" data-target="#myModal">Excluir</button>
+                                                <button type="button" class="btn btn-outline btn-danger btn-xs" data-toggle="modal" data-target="#myModal<?=$evento->id;?>">Excluir</button>
                                             </td>
                                         </tr>
                                     <?php endforeach;?>
                                     </tbody>
                                 </table>
-                                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                                  <div class="modal-dialog">
-                                    <div class="modal-content">
-                                      <div class="modal-header">
-                                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                                        <h4 class="modal-title" id="myModalLabel">Excluir Evento?</h4>
-                                      </div>
-                                      <div class="modal-body">
-                                        Para deletar o evento confirme a ação.
-                                      </div>
-                                      <div class="modal-footer">
-                                        <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
-                                        <a href="<?php echo base_url();?>admin/deletar_evento/<?=$evento->id;?>"><button type="button" class="btn btn-danger">Deletar</button></a>
+                                <?php foreach($eventos as $evento):?>
+                                    <div class="modal fade" id="myModal<?=$evento->id;?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                      <div class="modal-dialog">
+                                        <div class="modal-content">
+                                          <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                            <h4 class="modal-title" id="myModalLabel">Excluir Evento?</h4>
+                                          </div>
+                                          <div class="modal-body">
+                                            Para deletar o evento confirme a ação.
+                                          </div>
+                                          <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+                                            <a href="<?php echo base_url();?>admin/deletar_evento/<?=$evento->id;?>"><button type="button" class="btn btn-danger">Deletar</button></a>
+                                          </div>
+                                        </div>
                                       </div>
                                     </div>
-                                  </div>
-                                </div>
+                                <?php endforeach;?>
                             </div>
                         </div>
                     </div>

@@ -117,4 +117,14 @@ class Admin_m extends CI_Model{
       $this->db->where('id', $edital['id']);
       return $this->db->update('editais', $data); 
     }
+
+    function deletar_edital($id, $arquivo){
+
+      if(unlink(BASEPATH . '../docs/' . $arquivo)){
+        $this->db->where('id', $id);
+        return $this->db->delete('editais');
+      }else{
+        return false;
+      }
+    }
 }
