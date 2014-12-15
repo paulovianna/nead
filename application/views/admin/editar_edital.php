@@ -41,9 +41,9 @@
                                         <div class="form-group">
                                             <label>Perfil do Edital</label>
                                             <select class="form-control" name="perfil">
-                                                <option value="Aluno" <?php if($edital->categoria == "Aluno") echo "selected";?>>Aluno</option>
-                                                <option value="Professor" <?php if($edital->categoria == "Professor") echo "selected";?>>Professor</option>
-                                                <option value="Tutor" <?php if($edital->categoria == "Tutor") echo "selected";?>>Tutor</option>
+                                                <option value="Alunos" <?php if($edital->categoria == "Alunos") echo "selected";?>>Aluno</option>
+                                                <option value="Professores" <?php if($edital->categoria == "Professores") echo "selected";?>>Professor</option>
+                                                <option value="Tutores" <?php if($edital->categoria == "Tutores") echo "selected";?>>Tutor</option>
                                             </select>
                                         </div>
                                         <div class="form-group">

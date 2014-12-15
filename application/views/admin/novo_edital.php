@@ -41,9 +41,9 @@
                                         <div class="form-group">
                                             <label>Perfil do Edital</label>
                                             <select class="form-control" name="perfil">
-                                                <option value="Aluno">Aluno</option>
-                                                <option value="Professor">Professor</option>
-                                                <option value="Tutor">Tutor</option>
+                                                <option value="Alunos">Aluno</option>
+                                                <option value="Professores">Professor</option>
+                                                <option value="Tutores">Tutor</option>
                                             </select>
                                         </div>
                                         <div class="form-group">
